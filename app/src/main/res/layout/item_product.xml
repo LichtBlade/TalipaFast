@@ -12,26 +12,55 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="160dp"
-        android:layout_height="222dp">
+        android:layout_width="181dp"
+        android:layout_height="281dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/tv_tittle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:text="MANOK"
+            android:textColor="#313638"
             android:textStyle="bold"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="199dp"
-            android:layout_height="162dp"
+            android:layout_width="297dp"
+            android:layout_height="188dp"
             android:src="@tools:sample/avatars"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:text="₱ 180 - 200 per kilo"
+            android:textColor="#006400"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tittle" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Various tender and juicy chicken cuts, tap here "
+            android:textAlignment="center"
+            android:textColor="#313638"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_price"
+            app:layout_constraintVertical_bias="0.769" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
