@@ -16,10 +16,6 @@
             android:name=".ProductPageActivity"
             android:exported="false" />
         <activity
-            android:name=".LandingPage"
-            android:name=".ThanksActivity"
-            android:exported="false" />
-        <activity
             android:name=".ShoppingCartActivity"
             android:exported="false" />
         <activity
@@ -30,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".FreshActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
